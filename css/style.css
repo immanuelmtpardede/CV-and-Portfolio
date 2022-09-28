@@ -1,0 +1,227 @@
+body{
+    background-image: url("../img/background.png");
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    border-left: 5px dashed grey;
+    border-right: 5px dashed grey;
+    overflow: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.biodata{
+    width: 100%;
+    margin: 0 auto 50px auto;
+    padding-bottom: 50px;
+    background-image: url("../img/background-biodata.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+}
+
+.biodata img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 360px;
+    border: 20px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+.biodata img:hover{
+    border-color: rgba(0, 255, 255, 0.5);
+}
+
+.biodata h1{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 300%;
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.biodata p{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 150%;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.biodata p:first-of-type{
+    padding-top: 5px;
+}
+
+.biodata p:last-of-type{
+    padding-bottom: 5px;
+}
+
+.btn{
+    position: fixed;
+    left: 30px;
+}
+
+.btn:hover{
+    left: 50px;
+}
+
+.btn img{
+    height: 35px;
+}
+
+.skill{top: 50px;}.character{top: 100px;}.award{top: 150px;}.experience{top: 200px;}.education{top: 250px;}.social-media{top: 300px;}.up{bottom: 0;}
+
+.download{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.download:hover{
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+.contact, #social-media div{
+    width: 90%;
+    margin: 0 auto 50px auto;
+    padding: 10px 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact{
+    border: 20px solid rgba(0, 0, 0, 0.5);
+    border-radius: 180px;
+}
+
+.contact img, #social-media div img{
+    width: 100px;
+    height: 100px;
+}
+
+.contact a{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.contact a:hover{
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 180px;
+}
+
+#social-media div a{
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#social-media div img, #social-media div p{
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+
+.content{
+    width: 90%;
+    margin: 0 auto 50px auto;
+    padding: 50px 0;
+    background-color: white;
+    border-top: 20px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+#skill, #character, #award, #experience, #education, #social-media{
+    margin-bottom: 150px;
+}
+
+#skill img, #character img, #award img, #experience img, #education img, #social-media img{
+    margin: 0 0 25px 50px;
+    height: 100px;
+    display: block;
+}
+
+#skill ol, #character ul{
+    margin-left: 75px;
+    font-size: 25px;
+}
+
+#character{
+    position: relative;
+}
+
+.visual-tree{
+    width: 500px;
+    height: 500px;
+    background-image: url("../img/visual-tree.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 70px;
+    right: -35px;
+}
+
+table{
+    margin: 0 25px 0 25px;
+}
+
+td{
+    padding: 10px;
+    font-size: 25px;
+    vertical-align: middle;
+    text-align: center;
+    border-left: 10px solid rgba(0, 255, 255, 0.5);
+}
+
+td:first-of-type{
+    border-left: 0;
+}
+
+tr:nth-of-type(even) td{
+    padding-bottom: 50px;
+}
+
+tr:last-of-type td{
+    padding-bottom: 10px;
+}
+
+tr:nth-of-type(odd) td{
+    font-weight: bold;
+}
+
+.desc{
+    color: grey;
+    text-align: justify;
+}
+
+.visual-flowers-bees{
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/visual-flowers-bees.png");
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
