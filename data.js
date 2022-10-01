@@ -3,12 +3,12 @@
 skill = [
     "Basic programming (C, C++, Java, and Python)",
     "Data structures (C and C++)",
-    "Object oriented programming (Java, PHP)",
+    "Object oriented programming (Java and PHP)",
     "Database system and management (MySQL and PostreSQL)",
     "Bash shell scripting",
     "Version control system (Git) and collaborate on GitHub",
-    "Basic web programming (HTML, CSS, JavaScript, and PHP)",
-    "Framework and API (Laravel)"
+    "Web programming (HTML, CSS, JavaScript, and PHP)",
+    "Framework (Laravel) and API with Laravel",
 ];
 
 character = [

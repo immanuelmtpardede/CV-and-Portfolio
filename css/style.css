@@ -10,6 +10,7 @@ body{
     overflow: auto;
     position: relative;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .biodata{
@@ -32,6 +33,7 @@ body{
     border-radius: 360px;
     border: 20px solid rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
+    transition: border-color 500ms;
 }
 
 .biodata img:hover{
@@ -68,10 +70,11 @@ body{
 .btn{
     position: fixed;
     left: 30px;
+    transition: padding-left 500ms;
 }
 
 .btn:hover{
-    left: 50px;
+    padding-left: 20px;
 }
 
 .btn img{
@@ -87,6 +90,7 @@ body{
     position: absolute;
     top: 0px;
     right: 0px;
+    transition: background-color 500ms;
 }
 
 .download:hover{
@@ -119,6 +123,7 @@ body{
     text-decoration: none;
     display: flex;
     align-items: center;
+    transition: 500ms;
 }
 
 .contact a:hover{
